@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-08T22:56:14 ICT" name="Default suite" finished-at="2024-01-08T22:56:38 ICT" duration-ms="23872">
+    <groups>
+    </groups>
+    <test started-at="2024-01-08T22:56:14 ICT" name="Default test" finished-at="2024-01-08T22:56:38 ICT" duration-ms="23872">
+      <class name="Demo.Lab5_Example">
+        <test-method is-config="true" signature="init()[pri:0, instance:Demo.Lab5_Example@121314f7]" started-at="2024-01-08T22:56:14 ICT" name="init" finished-at="2024-01-08T22:56:23 ICT" duration-ms="8608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC01_GoogleSearch()[pri:0, instance:Demo.Lab5_Example@121314f7]" started-at="2024-01-08T22:56:23 ICT" name="TC01_GoogleSearch" finished-at="2024-01-08T22:56:38 ICT" duration-ms="14938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_GoogleSearch -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:Demo.Lab5_Example@121314f7]" started-at="2024-01-08T22:56:38 ICT" name="terminate" finished-at="2024-01-08T22:56:38 ICT" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- Demo.Lab5_Example -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
