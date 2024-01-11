@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.api.auto.testcase.TC_API_Login">
+        <methods>
+          <include name="TC_04_ValidateUserType"/>
+          <include name="TC_05_ValidateAccount"/>
+          <include name="init"/>
+          <include name="TC_01_Validate200Ok"/>
+          <include name="TC_02_ValidateMessage"/>
+          <include name="TC_03_ValidateToken"/>
+        </methods>
+      </class> <!-- com.api.auto.testcase.TC_API_Login -->
+      <class name="com.api.auto.testcase.TC_API_CreateWork">
+        <methods>
+          <include name="TC_01_Validate201Created"/>
+          <include name="TC_02_ValidateWorkId"/>
+          <include name="TC_03_ValidateNameOfWorkMatched"/>
+          <include name="TC_04_ValidateExperienceMatched"/>
+          <include name="init"/>
+          <include name="TC_05_ValidateEducationMatched"/>
+        </methods>
+      </class> <!-- com.api.auto.testcase.TC_API_CreateWork -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
